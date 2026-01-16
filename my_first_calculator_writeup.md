@@ -25,4 +25,4 @@ In this challenge, we input:
 open('flag.txt').read()
 ```
 
-This expression instructs the program to open `flag.txt` and read its contents (commonly where the flag is stored in CTF challenges). Since the program prints the result of `eval(...)`, the contents of `flag.txt`—the flag—get printed.
+This expression instructs the program to open `flag.txt` and read its contents (commonly where the flag is stored in such CTF challenges). Since the program prints the result of `eval(...)`, the contents of `flag.txt` gets printed.
