@@ -15,7 +15,7 @@ This code prompts the user for input (a “math expression”), evaluates that i
 
 The vulnerability is the unsafe use of `eval()`.
 
-`eval()` takes a string and executes it as Python code. That means it doesn’t just evaluate math expressions—it will run *any* valid Python expression provided by the user. As a result, an attacker can supply malicious Python code and have it executed by the program.
+`eval()` takes a string and executes it as Python code. That means it doesn’t just evaluate math expressions - it will run *any* valid Python expression provided by the user. As a result, an attacker can supply malicious Python code and have it executed by the program.
 
 ## Exploit
 
